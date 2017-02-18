@@ -1,4 +1,4 @@
-#Makefile for C/C++ GNU/linux Program   
+# Makefile for C/C++ GNU/linux Program   
 # Make Target:   
 # ------------   
 # The Makefile provides the following targets to make:   
@@ -125,5 +125,5 @@ help:
 	@echo '  clean     clean all objects and the executable file.'  
 	@echo '  help      print this message.'  
 	@echo   
-	@echo 'Report bugs to <zhengdi@nationalchip.com>.'  
+	@echo 'Report bugs to <zhengdi05@gmail.com>.'  
 
