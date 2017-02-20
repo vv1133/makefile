@@ -10,6 +10,7 @@
 #   
 #===========================================================================   
 
+################################ config ################################ 
 ARCH=pc
 
 ifeq ($(ARCH), pc)
@@ -20,7 +21,6 @@ CC            = arm-linux-gcc
 AR            = arm-linux-ar
 endif
 
-################################ config ################################ 
 OUT_DIR = ./output
 
 # lib
@@ -31,9 +31,9 @@ TARGET_LIB = libfun.a
 
 # elf
 LIB_DIR = ./src
-LD_LIBS  = -lfun
+LD_LIBS = -lfun
 LD_FLAGS = -g -O2
-ELF_INCLUDE_DIR =  . ./include
+ELF_INCLUDE_DIR = . ./include
 ELF_CFLAGS = -DTEST -g -O2
 TARGET_ELF = test.elf
 
